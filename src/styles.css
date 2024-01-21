@@ -124,6 +124,7 @@ p {
   margin-right: 0.5rem;
   padding: 0.2rem;
   font-size: 1.1rem;
+  width: 70%;
 }
 
 .form-input:focus {
