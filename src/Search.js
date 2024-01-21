@@ -54,7 +54,7 @@ export default function Search({ date }) {
       temp: Math.round(response.data.temperature.current),
       city: response.data.city,
       condition: response.data.condition.description,
-      wind: Math.round(response.data.wind.speed),
+      wind: Math.round(response.data.wind.speed * 3.6),
       humidity: response.data.temperature.humidity,
     });
   }
